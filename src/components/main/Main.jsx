@@ -19,7 +19,7 @@ const Main = () => {
 	return (
 		<div className="main">
 			<div className="nav">
-				<p>Gemini</p>
+				<p>IsabiLearn AI</p>
 				<img src={assets.user} alt="" />
 			</div>
 			<div className="main-container">
@@ -27,7 +27,7 @@ const Main = () => {
 					<>
 						<div className="greet">
 							<p>
-								<span>Hello , Dev </span>
+								<span>Hello, IsabiLearner </span>
 							</p>
 							<p>How Can i Help You Today?</p>
 						</div>
@@ -35,41 +35,41 @@ const Main = () => {
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("Suggest Some Place To Visit In Kerala")
+									handleCardClick("Suggest Some Place To Visit In Nigeria")
 								}
 							>
-								<p>Suggest Some Place To Visit In Kerala </p>
+								<p>Suggest Some Place To Visit In Nigeria </p>
 								<img src={assets.compass_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() =>
 									handleCardClick(
-										"Brainstorm team bonding activities for our work retreat"
+										"How to Good Speak English 2024?"
 									)
 								}
 							>
-								<p>Brainstorm team bonding activities for our work retreat </p>
+								<p>How to Good Speak English 2024?</p>
 								<img src={assets.message_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() =>
-									handleCardClick("How to Create a Gyroscope using Disc?")
+									handleCardClick("What is Photosynthesis in Biology?")
 								}
 							>
-								<p>How to Create a Gyroscope using Disc?</p>
+								<p>What is Photosynthesis in Biology?</p>
 								<img src={assets.bulb_icon} alt="" />
 							</div>
 							<div
 								className="card"
 								onClick={() => {
 									handleCardClick(
-										"Create a Script for the youtube video about coding "
+										"How to Code Basic HTML?"
 									);
 								}}
 							>
-								<p>Create a Script for the youtube video about coding </p>
+								<p>How to Code Basic HTML?</p>
 								<img src={assets.code_icon} alt="" />
 							</div>
 						</div>
@@ -119,8 +119,8 @@ const Main = () => {
 					</div>
 					<div className="bottom-info">
 						<p>
-							Gemini may display inaccurate info, including about people, so
-							double-check its responses. Your privacy & Gemini Apps
+							IsabiLearn AI may display inaccurate info, including about people, so
+							double-check its responses. Your privacy & IsabiLearn AI Apps
 						</p>
 					</div>
 				</div>
