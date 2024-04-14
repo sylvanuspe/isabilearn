@@ -45,11 +45,11 @@ const Main = () => {
 								className="card"
 								onClick={() =>
 									handleCardClick(
-										"How to Good Speak English 2024?"
+										"How to Speak Good English 2024?"
 									)
 								}
 							>
-								<p>How to Good Speak English 2024?</p>
+								<p>How to Speak Good English 2024?</p>
 								<img src={assets.message_icon} alt="" />
 							</div>
 							<div
